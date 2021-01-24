@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ci-cd-app/static/css/main.7d3abe10.chunk.css",
-    "main.js": "/ci-cd-app/static/js/main.7dd5a6c9.chunk.js",
-    "main.js.map": "/ci-cd-app/static/js/main.7dd5a6c9.chunk.js.map",
+    "main.js": "/ci-cd-app/static/js/main.77b75db9.chunk.js",
+    "main.js.map": "/ci-cd-app/static/js/main.77b75db9.chunk.js.map",
     "runtime-main.js": "/ci-cd-app/static/js/runtime-main.0e6408fa.js",
     "runtime-main.js.map": "/ci-cd-app/static/js/runtime-main.0e6408fa.js.map",
     "static/js/2.4f99c3dd.chunk.js": "/ci-cd-app/static/js/2.4f99c3dd.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.0e6408fa.js",
     "static/js/2.4f99c3dd.chunk.js",
     "static/css/main.7d3abe10.chunk.css",
-    "static/js/main.7dd5a6c9.chunk.js"
+    "static/js/main.77b75db9.chunk.js"
   ]
 }
