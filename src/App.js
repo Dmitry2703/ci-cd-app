@@ -9,7 +9,8 @@ function App() {
         <p>
           Test project for CI/CD learning
         </p>
-        <p>I'm testing a manual deploy on Github pages</p>
+        <p>I'm testing an auto deploy on Github pages using gh-pages tool</p>
+        <p>It's very ease to deploy with gh-pages! :)</p>
       </header>
     </div>
   );
