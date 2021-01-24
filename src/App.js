@@ -10,6 +10,7 @@ function App() {
           Test project for CI/CD learning
         </p>
         <p>I'm testing an auto deploy on Netlify</p>
+        <p>A new paragraph to test auto deploy</p>
       </header>
     </div>
   );
