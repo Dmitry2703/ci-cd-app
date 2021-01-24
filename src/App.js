@@ -9,6 +9,7 @@ function App() {
         <p>
           Test project for CI/CD learning
         </p>
+        <p>I'm testing a manual deploy on Github pages</p>
       </header>
     </div>
   );
