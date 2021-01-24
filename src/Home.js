@@ -11,6 +11,7 @@ function Home() {
         </p>
         <p>I'm testing an auto deploy on Github pages using gh-pages tool</p>
         <p>It's very ease to deploy with gh-pages! :)</p>
+        <p>Check that Netlify doesn't auto deploy pushes to another branches</p>
       </header>
     </div>
   );
