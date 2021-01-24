@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import Home from './Home';
 
 test('renders main page text', () => {
-  render(<App />);
+  render(<Home />);
   const textElement = screen.getByText(/Test project for CI\/CD learning/i);
   expect(textElement).toBeInTheDocument();
 });

@@ -1,19 +1,65 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import {
+  HashRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useParams,
+} from "react-router-dom";
 
-function App() {
+import Home from './Home';
+
+const About = () => <h1>About</h1>;
+const Users = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Test project for CI/CD learning
-        </p>
-        <p>I'm testing an auto deploy on Github pages using gh-pages tool</p>
-        <p>It's very ease to deploy with gh-pages! :)</p>
-      </header>
-    </div>
+    <>
+      <h1>Users</h1>
+      <Link to="/user/42" >See user 42</Link>
+    </>
   );
-}
+};
+const User = () => {
+  const { userId } = useParams();
+  return (
+    <>
+      <h1>User</h1>
+      <p>Hi user with id {userId}</p>
+    </>
+  );
+};
+
+const App = () => (
+  <Router>
+    <div>
+      <nav>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/about">About</Link>
+          </li>
+          <li>
+            <Link to="/users">Users</Link>
+          </li>
+        </ul>
+      </nav>
+      <Switch>
+        <Route path="/about">
+          <About />
+        </Route>
+        <Route path="/users/">
+          <Users />
+        </Route>
+        <Route path="/user/:userId">
+          <User />
+        </Route>
+        <Route path="/">
+          <Home />
+        </Route>
+      </Switch>
+    </div>
+  </Router>
+);
 
 export default App;
